@@ -30,7 +30,7 @@ const Navbar = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><button onClick={()=>document.getElementById('aboutModal').showModal()}>About</button></li>
+            <li><button onClick={() => document.getElementById('aboutModal').showModal()}>About</button></li>
           </ul>
         </div>
       </div>
@@ -52,6 +52,7 @@ const Navbar = () => {
       <dialog id="aboutModal" className="modal">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>
+          <img src={"/cari-jurnal.png"} alt="cari-jurnal" className='w-1/2' />
           <p className="py-4">Aplikasi ini dibuat untuk memudahkan pengguna untuk mencari portal jurnal yang sesuai dengan preferensi pengguna. Aplikasi ini dilengkapi dengan informasi publication fee yang dapat membantu pengguna mengetahui biaya yang dibutuhkan untuk mempublikasi jurnal di portal jurnal tersebut.</p>
           <p className='text-sm italic'>- umsida.dev</p>
           <div className="modal-action">
