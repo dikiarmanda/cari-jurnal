@@ -21,13 +21,13 @@ const Journal = ({ journal }) => {
       break;
   }
   return (
-    <div className="card w-full lg:w-1/5 bg-base-100 shadow-xl image-full">
+    <div className="card md:basis-1/4 w-full bg-base-100 shadow-xl image-full">
       <figure><img src={`https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfDB8MHx8fDA%3D`} alt={journal.title} /></figure>
       <div className="card-body">
         <div className="flex">
           <h2 className="card-title text-3xl">{journal.title}</h2>
           <p className="text-end">
-            <span className={`btn btn-sm ${sintaColor}`}>{journal.SINTA}</span>
+            <a href={`https://sinta.kemdikbud.go.id/journals/?q=${journal.title}`} className={`btn btn-sm ${sintaColor}`}>{journal.SINTA}</a>
           </p>
         </div>
         <ul>
