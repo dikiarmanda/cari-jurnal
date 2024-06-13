@@ -26,7 +26,7 @@ const Summary = ({ sinta, journals }) => {
   }
 
   return (
-    <div className="flex md:basis-[49%] flex-col md:flex-row stats shadow">
+    <div className="flex md:basis-[49%] flex-col md:flex-row stats shadow w-full">
       <div className="stat content-end md:w-1/3">
         <div className="stat-figure text-secondary">
           <FontAwesomeIcon icon={faChartSimple} className="inline-block w-8 h-8 stroke-current" />
