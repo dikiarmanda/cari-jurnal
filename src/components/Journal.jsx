@@ -1,6 +1,6 @@
 const Journal = ({ journal }) => {
   let sintaColor
-  switch (journal.SINTA) {
+  switch (journal.sinta) {
     case 'SINTA 1':
       sintaColor = 'btn-secondary'
       break;
@@ -21,20 +21,20 @@ const Journal = ({ journal }) => {
       break;
   }
   return (
-    <div className="card md:basis-1/4 w-full bg-base-100 shadow-xl image-full">
+    <div className="card flex sm:basis-[49%] md:basis-[24%] w-full bg-base-100 shadow-xl image-full">
       <figure><img src={`https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfDB8MHx8fDA%3D`} alt={journal.title} /></figure>
       <div className="card-body">
         <div className="flex">
           <h2 className="card-title text-3xl">{journal.title}</h2>
           <p className="text-end">
-            <a href={`https://sinta.kemdikbud.go.id/journals/?q=${journal.title}`} className={`btn btn-sm ${sintaColor}`}>{journal.SINTA}</a>
+            <a href={`https://sinta.kemdikbud.go.id/journals/?q=${journal.title}`} className={`btn btn-sm ${sintaColor}`}>{journal.sinta}</a>
           </p>
         </div>
         <ul>
           <li>{journal.longTitle}</li>
           <li>Prodi : <span className="uppercase">{journal.program}</span></li>
           <li>Publication Fee:</li>
-          <li className="btn btn-sm btn-pill font-semibold">{new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(journal.fee)}</li>
+          <li className="btn btn-sm btn-pill font-semibold">{new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(journal.fee)}</li>
         </ul>
         <div className="card-actions absolute bottom-7 right-8">
           <a href={journal.urlJournal} className="btn btn-sm btn-primary">Visit</a>
