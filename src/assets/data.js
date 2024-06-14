@@ -54,15 +54,6 @@ export const data = [
       "urlJournal": "https://e-journal.hamzanwadi.ac.id/index.php/infotek/index"
   },
   {
-      "Submitted at": "2024-06-02 08:09:06",
-      "title": "J-ICOM",
-      "longTitle": "Jurnal Informatika dan Teknologi Komputer",
-      "sinta": "SINTA 4",
-      "program": "INFORMATIKA",
-      "fee": 450000,
-      "urlJournal": "https://ejurnalunsam.id/index.php/jicom/index"
-  },
-  {
       "Submitted at": "2024-06-02 08:09:40",
       "title": "JUTIKOMP",
       "longTitle": "Jurnal Teknologi Dan Ilmu Komputer Prima",
