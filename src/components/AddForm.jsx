@@ -9,6 +9,11 @@ const AddForm = () => {
         <a href="#tally-open=w2kNrA&tally-layout=modal&tally-width=500&tally-emoji-text=👋&tally-emoji-animation=wave" className="btn btn-secondary btn-sm md:btn-md">
           <FontAwesomeIcon icon={faPlus} /> Add New Journal Portal</a>
       </div>
+      <div className="divider"></div>
+      <p>
+        Semua data pada website ini bersumber dari <a href="https://sinta.kemdikbud.go.id">https://sinta.kemdikbud.go.id</a> dan masing-masing website jurnal.
+        Publication fee/Author fee/Biaya publikasi dapat berubah sewaktu-waktu sesuai dengan kebijakan masing-masing jurnal.
+      </p>
     </div>
   )
 }
