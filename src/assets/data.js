@@ -299,8 +299,6 @@ export const data = [
     urlJournal: "https://journal.ipb.ac.id/index.php/jika/index",
   },
   {
-    "Submission ID": "j8v1DR",
-    "Respondent ID": "YxEl2N",
     "Submitted at": "2024-11-19 03:56:05",
     title: "Jurnal Teknik ITS",
     longTitle: "Jurnal Teknik ITS",
@@ -310,8 +308,6 @@ export const data = [
     urlJournal: "https://ejurnal.its.ac.id/index.php/teknik/index",
   },
   {
-    "Submission ID": "4lze7o",
-    "Respondent ID": "YxEl2N",
     "Submitted at": "2024-11-19 03:57:47",
     title: "Jurnal Tekno Kompak",
     longTitle: "Jurnal Tekno Kompak",
@@ -321,8 +317,6 @@ export const data = [
     urlJournal: "https://ejurnal.teknokrat.ac.id/index.php/teknokompak/index",
   },
   {
-    "Submission ID": "pYv84J",
-    "Respondent ID": "YxEl2N",
     "Submitted at": "2024-11-19 04:01:49",
     title: "JSI",
     longTitle: "Jurnal Sistem Informasi (E-Journal)",
@@ -332,8 +326,6 @@ export const data = [
     urlJournal: "https://jsi.ejournal.unsri.ac.id/index.php/jsi/",
   },
   {
-    "Submission ID": "VWD2DJ",
-    "Respondent ID": "YxEl2N",
     "Submitted at": "2024-11-19 04:02:52",
     title: "Jurnal Informatika",
     longTitle: "Jurnal Informatika",

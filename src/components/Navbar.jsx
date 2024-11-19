@@ -54,7 +54,7 @@ const Navbar = () => {
           <h3 className="font-bold text-lg">Hello!</h3>
           <img src={"/cari-jurnal.png"} alt="cari-jurnal" className='w-1/2' />
           <p className="py-4">Aplikasi ini dibuat untuk memudahkan pengguna untuk mencari portal jurnal yang sesuai dengan preferensi pengguna. Aplikasi ini dilengkapi dengan informasi publication fee yang dapat membantu pengguna mengetahui biaya yang dibutuhkan untuk mempublikasi jurnal di portal jurnal tersebut.</p>
-          <p className='text-sm italic'><a href="https://dikiarmanda.vercel.app" className="hover:bg-primary hover:text-primary-content">- Diki Armanda</a></p>
+          <p className='text-sm italic'><a href="https://dikiarmanda.vercel.app">- Diki Armanda</a></p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn">Close</button>
